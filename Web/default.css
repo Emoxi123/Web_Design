@@ -331,50 +331,52 @@
 /* Menu                                                                          */
 /*********************************************************************************/
 
+	
+
 	#menu
 	{
 		position: absolute;
 		top: 3.5em;
-		right: 0;
-		
+		right: 0.2;
 	}
 	
 	#menu ul
 	{
 		display: inline-block;
-		
 	}
 	
 	#menu li
 	{
 		display: block;
 		float: left;
-		text-align: left;
+		text-align: center;
+ 		
 	}
 	
 	#menu li a, #menu li span
 	{
-		padding 1em, 1.5em;
-		letter-spacing: 0.10em;
+		padding: 12em 14.0em;
+		letter-spacing: 0.08em;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 0.90em;
-		color: #FFFFFF;
+		color: #00000;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
-		color : #030587;
+ 		color: #030587;
 	}
 	
 	#menu .current_page_item a
 	{
-		font-size: 1.20em;
+		font-size: 1.50em;
 	}
 	
 	#menu .icon
 	{
 	}
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
